@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bikin - Modern Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #00aaff;
+            padding: 15px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section Styles */
+        .hero {
+            position: relative;
+            height: 400px;
+            background-image: url('https://via.placeholder.com/1200x400'); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .hero h1 span {
+            color: #00aaff;
+        }
+
+        .hero p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .hero-buttons a {
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .live-demo {
+            background-color: #00aaff;
+            color: white;
+        }
+
+        .get-now {
+            background-color: white;
+            color: #00aaff;
+        }
+
+        /* Features Section Styles */
+        .features {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .features p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .features-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .feature-item {
+            max-width: 200px;
+        }
+
+        .feature-item .icon {
+            width: 100px;
+            height: 100px;
+            background-color: #00aaff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            font-size: 40px;
+            color: white;
+        }
+
+        .feature-item h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .feature-item p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">BIKIN</div>
+        <nav>
+            <a href="landing page.html">Home</a>
+            <a href="Features.html">Features</a>
+            <a href="Gallery.">Gallery</a>
+            <a href="/pricing">Price & Plan</a>
+            <a href="/team">Our Team</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Modern <span>Design</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing</p>
+        <div class="hero-buttons">
+            <a href="/demo" class="live-demo">Live Demo</a>
+            <a href="/get-now" class="get-now">Get Now</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Features</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit Lorem ipsum dolor sit amet consectetur adipiscing</p>
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="icon">💻</div>
+                <h3>Fully Responsive</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">❤️</div>
+                <h3>Retina Ready</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">☁️</div>
+                <h3>Easily Customize</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">📸</div>
+                <h3>Quality Code</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

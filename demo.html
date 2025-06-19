@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publishing Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            color: #ff5733;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .logo span {
+            color: #333;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+        .search-bar {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background-color: #fff;
+        }
+        .hero-text h1 {
+            font-size: 48px;
+            color: #333;
+        }
+        .hero-text p {
+            font-size: 16px;
+            color: #666;
+            margin: 20px 0;
+        }
+        .hero-text button {
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .view-books {
+            background-color: #4a90e2;
+            color: #fff;
+        }
+        .explore-now {
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+        }
+        .hero-image {
+            width: 50%;
+            background-color: #f0f0f0;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .categories {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+            background-color: #fff;
+            text-align: center;
+        }
+        .category {
+            width: 20%;
+        }
+        .category img {
+            width: 100px;
+            height: 100px;
+            background-color: #ff5733;
+            border-radius: 50%;
+        }
+        .category h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .category p {
+            font-size: 14px;
+            color: #666;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 30px;
+            background-color: #f9f5e7;
+            text-align: center;
+        }
+        .stat h2 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .stat p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">PUBLISHING <span>COMPANY</span></div>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">COMING SOON</a>
+            <a href="#">TOP SELLER</a>
+            <a href="#">BOOKS</a>
+            <a href="#">AUTHOR</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+        </nav>
+        <input type="text" class="search-bar" placeholder="Search">
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Good books don’t give up all their secrets at once</h1>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            <button class="view-books">VIEW ALL BOOKS</button>
+            <button class="explore-now">EXPLORE NOW</button>
+        </div>
+        <div class="hero-image">
+            <!-- Placeholder for the image -->
+            <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhgQDzRSha7RtSFM9uoKwNSsYi7VbDqFXRqQ&s" alt="Art & Architecture Icon" height="400px";width="10px";></style>
+        </div>
+    </section>
+
+    <section class="categories">
+        <div class="category">
+            <img src="data:image/png;base64,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" alt="Children's Book Icon">
+            <h3>Children's Book</h3>
+            <p>Children's books are written works and illustrations designed for young audiences, ranging from picture books and easy-to-read stories to classics and fairy tales. They serve to entertain, instruct, and foster literacy in children</p>
+        </div>
+        <div class="category">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbEi7M7AGi6THlt9I9C7_NYjoPGY15GzVHfA&s" alt="Romance Icon">
+            <h3>Romance</h3>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        </div>
+        <div class="category">
+            <img src="data:image/png;base64,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" alt="Art & Architecture Icon">
+            <h3>Art & Architecture</h3>
+            <p>Art and architecture are interconnected disciplines that both express human creativity and shape our environment. Architecture, as a form of art, can be viewed as a blend of artistic expression, technical skill, and functional design. Art, in turn, can be integrated into and inspired by architecture, enriching the visual and experiential landscape of our built environment.</p>
+        </div>
+        <div class="category">
+            <img src="data:image/jpeg;base64,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" alt="History Icon">
+            <h3>History</h3>
+            <p>The history of architecture encompasses the evolution of buildings and structures across various civilizations and periods. From early human shelters to complex modern designs, architecture reflects cultural, social, and technological advancements. Key periods include ancient civilizations (like Egypt and Greece), the Roman Empire, the Middle Ages, the Renaissance, and Modernism.</p>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stat">
+            <h2>75,678</h2>
+            <p>ACTIVE READERS</p>
+        </div>
+        <div class="stat">
+            <h2>3,040</h2>
+            <p>TOTAL PAGES</p>
+        </div>
+        <div class="stat">
+            <h2>283</h2>
+            <p>CUP OF COFFEE</p>
+        </div>
+        <div class="stat">
+            <h2>14,500</h2>
+            <p>FACEBOOK FANS</p>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<html?>
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form method="post"name="login"autocomplete="off"action="marquee.html"target="blank">
+            <label>name</label>
+            <input type="text" name="name" autofocus placeholder="Enter name"maxlength="20" minlength="2"required/><br>
+            <input type="text"email="email" autofocus placeholder="Enter email"maxlength="25"minlength="3"required/><br>
+           
+            <input type="radio"name="gender">male<br>
+            <input type="radio"name="gender">female<br><br>
+
+            <input type="checkbox"name="book">c++<br>
+            <input type="checkbox"name="book">java<br>
+            <input type="checkbox"name="book">DCN<br>
+            
+            <select>
+                <option>c</option>
+                <option>c++</option>
+                <option>java</option>
+                <option>php</option>
+            </select>
+            <input list="courses">
+            <datalist id="courses">
+                <option>c</option>
+                <option>c++</option>
+                <option>java</option>
+                <option>PHP</option>
+            </datalist>
+            <lable>input hidden</lable>
+            <input type="hidden"value="abc"name="name"><br><br>
+            password
+            <input type="password"name="contact"/><br><br>
+            <taxtarea rows="10" cols="10">
+            </taxtarea>
+            <fieldset>
+                <length>login form</length>
+                <input type="text">
+            </fieldset><br><br>
+
+            <input type="submit"value="submit"/>
+            <input type="button"value="button"/>
+        </form>
+    </body>
+</html>

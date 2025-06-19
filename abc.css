@@ -1,0 +1,13 @@
+body{
+    margin:0px;
+    padding:0px;
+    width: 100%;
+
+}
+.maindiv{
+    border:2px dotted yellow;
+    height: 100%;
+    margin:50px;
+    background-color: rgb(70, 223, 223);
+    align-items: center;
+}
